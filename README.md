@@ -15,7 +15,7 @@ Authentication will use a JWT (more info: https://auth0.com/blog/2014/01/07/angu
 `curl -H "Authorization: JWT <your_token>" http://localhost:8000/api/users/<user_id>/`
 
 * Update user account:
-`curl -X PUT -H "Authorization: JWT <your_token> » http://localhost:8000/api/users/<user_id>/ -d "username=<username>&email=<new_email>..."`
+`curl -X PUT -H "Authorization: JWT <your_token>" http://localhost:8000/api/users/<user_id>/ -d "username=<username>&email=<new_email>..."`
 
 
 
