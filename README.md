@@ -19,7 +19,7 @@ Authentication will use a JWT (more info: https://auth0.com/blog/2014/01/07/angu
 
 
 
-2 users will be available:
+#####The following users are available:
 
 | Login  | Password |
 | ------ | -------- |
