@@ -8,7 +8,6 @@ Authentication will use a JWT (more info: https://auth0.com/blog/2014/01/07/angu
 #####The following REST api is available:
 
 * Retrieve a new Web Token:
-
 `curl -X POST -d "username=admin&password=abc123" http://<hostname>/api/auth-token/`
 
 * Retrieve account details:
