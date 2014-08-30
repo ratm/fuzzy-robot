@@ -9,13 +9,13 @@ Authentication will use a JWT (more info: https://auth0.com/blog/2014/01/07/angu
 
 * Retrieve a new Web Token:
 
-`curl -X POST -d "username=admin&password=abc123" http://localhost:8000/api/auth-token/`
+`curl -X POST -d "username=admin&password=abc123" http://<hostname>/api/auth-token/`
 
 * Retrieve account details:
-`curl -H "Authorization: JWT <your_token>" http://localhost:8000/api/users/<user_id>/`
+`curl -H "Authorization: JWT <your_token>" http://<hostname>/api/users/<user_id>/`
 
 * Update user account:
-`curl -X PUT -H "Authorization: JWT <your_token>" http://localhost:8000/api/users/<user_id>/ -d "username=<username>&email=<new_email>..."`
+`curl -X PUT -H "Authorization: JWT <your_token>" http://<hostname>/api/users/<user_id>/ -d "username=<username>&email=<new_email>..."`
 
 
 
